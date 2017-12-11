@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+I have kept the erroneous cloned twitter search page in a separate repository. Its link is (https://https://github.com/manishgrd/twitsearch)
+
+Below is the automatically generated Readme. I am quite new to designing web elements through React (or
+Materia-Ui) let alone html or css. I have read theoretically about all these things but it was a first hands-on
+experience. All critisims about the errors are welcome, as I know I have made a lot of them!! Thank you.
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
