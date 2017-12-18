@@ -105,7 +105,7 @@ const FeedCard= () => (
      2016 to Nov 30, 2017. #AadhaarFacts
     </CardText>
     <CardMedia
-      overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
+      overlay={<CardTitle title="Aadhaar @UIDAI" subtitle=" #AadhaarFacts " />}
     >
       <img src="images/uiddata.jpg" alt="" />
     </CardMedia>
