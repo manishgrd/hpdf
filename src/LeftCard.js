@@ -50,24 +50,18 @@ const style = {
   },
 };
 
+const avtstyle = {
+  margin:5
+};
+
 const LeftCard= () => (
 
-<Paper style={style} zDepth={1}>
+<Paper style={style} zDepth={3}>
   <Card>
     <CardMedia>
-      <img src="images/nature-600-337.jpg" alt="" />
+      <img src="images/bkgd.jpg" alt="" />
     </CardMedia>
-    <IconButton
-      iconStyle={style.largeIcon}
-      style={style.large}
-      touch={true}
-      tooltip="Add or Change profile photo"
-      tooltipPosition="top-right"
-      containerElement={Card}
-    >
-      <CamIcon />
-      <input type="file" style={upldstyles.uploadInput} />
-    </IconButton>
+    <Avatar src="images/manish.jpg" style={avtstyle} />
     <CardTitle title="Manish Sharma"subtitle="@manish_sharma">
     </CardTitle>
     <CardActions>
@@ -141,6 +135,9 @@ const LeftCard= () => (
       subtitle="346 Tweets"
      />
    </Card>
+
+   <br/>
+   <br/>
    <br/>
    <br/>
    <br/>

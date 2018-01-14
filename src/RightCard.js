@@ -15,8 +15,7 @@ const style = {
 
 const RightCard= () => (
 
-<Paper style={style} zDepth={1}>
-  <Divider />
+<Paper style={style} zDepth={3}>
   <Card>
     <CardTitle
       title="Who to follow"
@@ -64,6 +63,7 @@ const RightCard= () => (
   <br/>
    <br/>
    <br/>
+
    <br/>
    <br/>
    <br/>

@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Topbar from './Topbar';
-import LeftCard from './LeftCard';
-import FeedCard from './FeedCard';
-import RightCard from './RightCard';
+import Main from './Main';
 import './App.css';
 class App extends Component {
 
@@ -13,9 +11,7 @@ class App extends Component {
       <div className="App">
       <MuiThemeProvider>
       <Topbar />
-      <LeftCard/>
-      <FeedCard/>
-      <RightCard/>
+      <Main/>
      </MuiThemeProvider>
       </div>
     );

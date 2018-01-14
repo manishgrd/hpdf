@@ -10,17 +10,18 @@ import EmailIcon from 'material-ui/svg-icons/communication/email'
 import FontIcon from 'material-ui/FontIcon';
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
+import { Link } from 'react-router-dom'
 
 const avtstyle = {margin:1};
 
 const Topbar = () => (
   <div>
-  <AppBar style={{backgroundColor:"#80DEEA"}}
+  <AppBar 
         title="Twitter"
 
         iconElementLeft={
           <div>
-              <FlatButton label="Home" labelPosition="after" icon={<HomeIcon />}/>
+              <Link to='/'><FlatButton label="Home" labelPosition="after" icon={<HomeIcon />}/></Link>
               <FlatButton label="Notifications" dense={true} labelPosition="after" icon={<NotificationsIcon />} />
               <Badge badgeContent={2} secondary={true} badgeStyle={{top: 5, right: 60}}/>
               <FlatButton label="Messages" labelPosition="after" icon={<EmailIcon />}/>
@@ -31,7 +32,7 @@ const Topbar = () => (
        iconElementRight={
           <div>
              <Avatar style={avtstyle} size={35} src="images/twitter-logo.jpg" alt="" />
-       <FlatButton icon={<SearchIcon/>}  href="./AadharSearch.html" target="_blank"/>
+             <Link to='/search'><FlatButton icon={<SearchIcon/>}/></Link>
              <TextField hintText="Search Twitter" />
              <Avatar style={avtstyle} src="images/manish.jpg" alt="" avatarStyle={{top: 0, left: 15}}/>
              <RaisedButton label="Tweet" backgroundColor = "#2196F3" buttonStyle={{ borderRadius: 20 }} style={{ borderRadius: 20 }} />
