@@ -7,7 +7,6 @@ import NotificationsIcon from 'material-ui/svg-icons/social/notifications'
 import HomeIcon from 'material-ui/svg-icons/action/home'
 import SearchIcon from 'material-ui/svg-icons/action/search'
 import EmailIcon from 'material-ui/svg-icons/communication/email'
-import FontIcon from 'material-ui/FontIcon';
 import AppBar from 'material-ui/AppBar';
 import Avatar from 'material-ui/Avatar';
 import { Link } from 'react-router-dom'
@@ -16,7 +15,7 @@ const avtstyle = {margin:1};
 
 const Topbar = () => (
   <div>
-  <AppBar 
+  <AppBar
         title="Twitter"
 
         iconElementLeft={

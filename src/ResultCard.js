@@ -1,37 +1,15 @@
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
-import RaisedButton from 'material-ui/RaisedButton';
 import EmailIcon from 'material-ui/svg-icons/communication/email'
 import MessageIcon from 'material-ui/svg-icons/communication/message'
-import LocIcon from 'material-ui/svg-icons/communication/location-on'
 import RefreshIcon from 'material-ui/svg-icons/navigation/refresh'
 import FavIcon from 'material-ui/svg-icons/action/favorite-border'
-import SearchIcon from 'material-ui/svg-icons/action/search'
-import GifIcon from 'material-ui/svg-icons/action/gif'
-import ImgIcon from 'material-ui/svg-icons/image/photo'
-import PollIcon from 'material-ui/svg-icons/social/poll'
-import FontIcon from 'material-ui/FontIcon';
 import IconButton from 'material-ui/IconButton';
-import TextField from 'material-ui/TextField';
-import Paper from 'material-ui/Paper';
 import Divider from 'material-ui/Divider';
-import Avatar from 'material-ui/Avatar';
-import AppBar from 'material-ui/AppBar';
-
-const style = {
-  height: 600,
-  width: 500,
-  margin: 10,
-  textAlign: 'left',
-  display: 'block',
-};
-
-
 
 const ResultCard= () => (
 <div>
-<Paper style={style} zDepth={1}>
   <Card>
     <CardTitle
       title="TOP NEWS"
@@ -84,7 +62,7 @@ const ResultCard= () => (
   </Card>
   <Divider />
   <FlatButton label="SEE  MORE RESULTS " fullWidth={true} />
-  </Paper>
+  <br/>
   </div>
 );
 

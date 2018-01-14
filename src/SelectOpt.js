@@ -1,26 +1,18 @@
 import React, {Component} from 'react';
 import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
-import Paper from 'material-ui/Paper';
-import {Card, CardHeader, CardText, CardTitle} from 'material-ui/Card';
+import {Card, CardText, CardTitle} from 'material-ui/Card';
 import Divider from 'material-ui/Divider';
 
-const styles = {
-    customWidth: {
-        width: 210,
-      },
-    height: 600,
-    width: 240,
-    margin: 10,
-    textAlign: 'center',
-    display: 'block',
-     };
+     const dstyles = {
+         width: 240,
+          };
 /**
  * `SelectField` is implemented as a controlled component,
  * with the current selection set through the `value` property.
  * The `SelectField` can be disabled with the `disabled` property.
  */
-export default class SelectOpt extends Component {
+ class SelectOpt extends Component {
   state = {
     value: 1,
   };
@@ -30,7 +22,6 @@ export default class SelectOpt extends Component {
   render() {
     return (
       <div>
-        <Paper style={styles} zDepth={1}>
         <Card>
         <CardTitle title="Search Filters"/>
         </Card>
@@ -39,7 +30,7 @@ export default class SelectOpt extends Component {
           floatingLabelText="People"
           value={this.state.value}
           onChange={this.handleChange}
-          style={styles.customWidth}
+          style={dstyles.width}
         >
           <MenuItem value={1} primaryText="From Anyone" />
           <MenuItem value={2} primaryText="People you follow" />
@@ -49,7 +40,7 @@ export default class SelectOpt extends Component {
           floatingLabelText="Location"
           value={this.state.value}
           onChange={this.handleChange}
-          style={styles.customWidth}
+          style={dstyles.width}
         >
           <MenuItem value={1} primaryText="Near you" />
           <MenuItem value={2} primaryText="Anywhere" />
@@ -59,7 +50,7 @@ export default class SelectOpt extends Component {
           floatingLabelText="Language"
           value={this.state.value}
           onChange={this.handleChange}
-          style={styles.customWidth}
+          style={dstyles.width}
         >
           <MenuItem value={1} primaryText="English" />
           <MenuItem value={2} primaryText="Hindi" />
@@ -76,11 +67,27 @@ export default class SelectOpt extends Component {
       Aadhar UIDAI Narendra Modi Rahul Gandhi
       HPDF HeroISL INDvsSL Virat Kohli
       Gujarat Elections
-    </CardText>
+        </CardText>
         </Card>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
        <Divider/>
-        </Paper>
       </div>
     );
   }
 }
+
+export default SelectOpt;

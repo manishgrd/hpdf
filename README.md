@@ -1,7 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Update 2:14-01-2018
+Patching errors for correct display of components on search page
+
+Update 1:12-01-2018
+Implemented react-router to navigate between home & search page via buttons
+
+Original post:10-12-2017
 I have kept the erroneous cloned twitter search page in a separate repository. Its link is 
-(https://github.com/manishgrd/twitsearch)
+(https://github.com/manishgrd/twitsearch) 
 
 I am quite new to designing web elements through React (or
 Materia-Ui) let alone html or css. I have read theoretically about all these things but it was a first hands-on

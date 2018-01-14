@@ -7,11 +7,9 @@ import MessageIcon from 'material-ui/svg-icons/communication/message'
 import LocIcon from 'material-ui/svg-icons/communication/location-on'
 import RefreshIcon from 'material-ui/svg-icons/navigation/refresh'
 import FavIcon from 'material-ui/svg-icons/action/favorite-border'
-import SearchIcon from 'material-ui/svg-icons/action/search'
 import GifIcon from 'material-ui/svg-icons/action/gif'
 import ImgIcon from 'material-ui/svg-icons/image/photo'
 import PollIcon from 'material-ui/svg-icons/social/poll'
-import FontIcon from 'material-ui/FontIcon';
 import IconButton from 'material-ui/IconButton';
 import TextField from 'material-ui/TextField';
 import Paper from 'material-ui/Paper';
@@ -22,7 +20,7 @@ import AppBar from 'material-ui/AppBar';
 const style = {
   height: 400,
   width: 550,
-  margin: 10,
+  margin: 5,
   textAlign: 'left',
   display: 'inline-block',
 };

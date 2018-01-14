@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import {Card, CardHeader, CardTitle, CardText} from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 import Paper from 'material-ui/Paper';
 import Divider from 'material-ui/Divider';
@@ -7,7 +7,7 @@ import Divider from 'material-ui/Divider';
 const style = {
   height: 300,
   width: 270,
-  margin: 10,
+  margin: 5,
   textAlign: 'center',
   display: 'inline-block',
 

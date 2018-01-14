@@ -1,40 +1,14 @@
 import React from 'react';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import {Card, CardActions, CardHeader, CardMedia, CardTitle} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import Paper from 'material-ui/Paper';
-import FloatingActionButton from 'material-ui/FloatingActionButton';
-import ContentAdd from 'material-ui/svg-icons/content/add';
 import Avatar from 'material-ui/Avatar';
-import IconButton from 'material-ui/IconButton';
-import CamIcon from 'material-ui/svg-icons/image/camera-alt';
 import Divider from 'material-ui/Divider';
-import Badge from 'material-ui/Badge';
-
-
-const buttonstyle = {
-  marginRight: 20,
-};
-
-const upldstyles = {
-    uploadButton: {
-      verticalAlign: 'middle',
-    },
-    uploadInput: {
-      cursor: 'pointer',
-      position: 'absolute',
-      top: 0,
-      bottom: 0,
-      right: 0,
-      left: 0,
-      width: '100%',
-      opacity: 0,
-    },
-  };
 
 const style = {
   height: 400,
   width: 300,
-  margin: 10,
+  margin: 5,
   textAlign: 'left',
   display: 'inline-block',
 

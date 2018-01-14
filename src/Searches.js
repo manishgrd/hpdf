@@ -1,15 +1,11 @@
 import React from 'react'
 import SearchCat from './SearchCat';
-import SelectOpt from './SelectOpt';
-import ResultCard from './ResultCard';
-import RelatedCard from './RelatedCard';
+import Wraplay from './Wraplay';
 
 const Searches = () => (
       <div>
       <SearchCat/>
-      <SelectOpt/>
-      <ResultCard/>
-      <RelatedCard/>
+      <Wraplay/>
       </div>
     );
 
